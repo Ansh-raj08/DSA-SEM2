@@ -23,13 +23,23 @@
 
 # Two Sum problem-
 
-arr = [0,2,3,6,3,7]
-target = 9
+# arr = [0,2,3,6,3,7]
+# target = 9
 
-for i in range(0,len(arr)):
-    first_num = arr[i]
+# for i in range(0,len(arr)):
+#     first_num = arr[i]
 
-    for j in range(i,len(arr)):
-        second_num = arr[j]
-        if first_num + second_num == target:
-            print(i,j)
+#     for j in range(i,len(arr)):
+#         second_num = arr[j]
+#         if first_num + second_num == target:
+#             print(i,j)
+
+arr = [2,3,4,5,6,1]
+last_value = arr[-1]
+
+for i in range(len(arr)-1,0,-1):
+    arr[i] = arr[i-1]
+arr[0] = last_value
+
+print(arr)
+
