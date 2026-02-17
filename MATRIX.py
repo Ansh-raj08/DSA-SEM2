@@ -96,17 +96,70 @@
 
 # Write a program to calculate the sum of individual rows and columns
 
-rows = int(input("enter no of rows: "))
-colm = int(input("enter the no of columns: "))
+# rows = int(input("enter no of rows: "))
+# colm = int(input("enter the no of columns: "))
+# matrix = []
+# for i in range(rows):
+#     rowArr = []
+#     for j in range(colm):
+#         rowArr.append(int(input("enter a value: ")))
+#     matrix.append(rowArr)
+
+# for i in range(rows):
+#     sum = 0
+#     for j in range(colm):
+#         sum += matrix[j][i]
+#     print("sum of colmuns: ", sum)
+
+# @ 16 feb 
+
+# matrix1 = [
+#     [1,2,3,4],
+#     [2,3,4,6]
+# ]
+# matrix2 = [
+#     [1,2,3,4],
+#     [2,3,4,6]
+# ]
+# result = []
+# for i in range (len(matrix1)):
+#     rowsum = []
+
+#     for j in range(len(matrix1[0])):
+#         sumval = matrix1[i][j] + matrix2[i][j]
+#         rowsum.append(sumval)
+
+#     result.append(rowsum)
+
+# print(result)
+
+# Matrix creation through Py
+
+# rowz = 2
+# colz = 2
+# mat1 = []
+# mat2 = []
+
+# for i in range (rowz):
+
+# @ 17 Feb 
+# 1. Printing upper and lower triangular matrix.
+#upper triangular matrix
+rows = 3
+columns = 3
 matrix = []
 for i in range(rows):
-    rowArr = []
-    for j in range(colm):
-        rowArr.append(int(input("enter a value: ")))
-    matrix.append(rowArr)
-
+    row = []
+    for j in range(columns):
+        value = int(input("Enter the value:"))
+        row.append(value)
+    matrix.append(row)
+print("Matrix")
 for i in range(rows):
-    sum = 0
-    for j in range(colm):
-        sum += matrix[j][i]
-    print("sum of colmuns: ", sum)
+    for j in range(columns):
+        print(matrix[i][j],end=" ")
+    print()
+
+for r in range(rows-1):
+    for c in range(r+1,columns):
+        print("Upper triangular:",matrix[r][c],end=" ")

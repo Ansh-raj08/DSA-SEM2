@@ -1,0 +1,4 @@
+Q1. What is matrix? + Code for implementation in python.
+Q2. Methods of traversal.
+Q3. What are Asymptotic Notations? explain them.
+Q4. 
