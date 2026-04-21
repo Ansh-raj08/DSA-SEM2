@@ -1,4 +1,15 @@
-Q1. What is matrix? + Code for implementation in python.
-Q2. Methods of traversal.
-Q3. What are Asymptotic Notations? explain them.
-Q4. 
+Q1. What is a binary tree? Explain its basic properties with a neat diagram.
+Q2. What is the difference between a binary tree and a binary search tree (BST)?
+Q3. What are the types of binary trees (full, complete, perfect, balanced, degenerate)? Explain each with examples.
+Q4. What are tree traversals in a binary tree? Explain preorder, inorder, postorder, and level order.
+Q5. Write a Python program to create a binary tree using nodes.
+Q6. Write a Python program for recursive preorder, inorder, and postorder traversal of a binary tree.
+Q7. Write a Python program for iterative inorder traversal using a stack.
+Q8. Write a Python program to perform level-order traversal using a queue.
+Q9. How do you insert and delete nodes in a binary search tree? Explain with algorithms.
+Q10. Write a Python program to search for an element in a binary search tree.
+Q11. What is the height (or depth) of a binary tree? Write a Python function to find it.
+Q12. Write a Python program to count total nodes, leaf nodes, and internal nodes in a binary tree.
+Q13. What is a balanced binary tree? Why is balancing important for performance?
+Q14. Explain the time complexity of major binary tree operations (search, insert, delete, traversal).
+Q15. Write a Python program to find the lowest common ancestor (LCA) of two nodes in a binary tree.
